@@ -25,7 +25,7 @@ const App = () => {
                 <div className={styles.exchangeContainer}>
                     <h1 className={styles.headTitle}>Uniswap 2.0</h1>
                     <p className={styles.subTitle}>
-                        Échangez des cryptos en quelques instants{' '}
+                        Échangez vos cryptos en quelques instants{' '}
                     </p>
 
                     <div className={styles.exchangeBoxWrapper}>
