@@ -4,11 +4,7 @@ import { useEthers } from '@usedapp/core'
 import { usePools } from './hooks'
 import styles from './styles'
 import { uniswapLogo } from './assets'
-import {
-    WalletButton,
-    Loader,
-    Exchange,
-} from './components'
+import { WalletButton, Loader, Exchange } from './components'
 
 const App = () => {
     const { account } = useEthers()
@@ -27,24 +23,15 @@ const App = () => {
                 </header>
 
                 <div className={styles.exchangeContainer}>
-                    <h1 className={styles.headTitle}>
-                        Uniswap 2.0
-                    </h1>
+                    <h1 className={styles.headTitle}>Uniswap 2.0</h1>
                     <p className={styles.subTitle}>
-                        Échangez des cryptos en quelques
-                        instants{' '}
+                        Échangez des cryptos en quelques instants{' '}
                     </p>
 
-                    <div
-                        className={
-                            styles.exchangeBoxWrapper
-                        }
-                    >
+                    <div className={styles.exchangeBoxWrapper}>
                         <div className={styles.exchangeBox}>
                             <div className="pink_gradient" />
-                            <div
-                                className={styles.exchange}
-                            >
+                            <div className={styles.exchange}>
                                 {account ? (
                                     loading ? (
                                         <Loader
@@ -52,12 +39,10 @@ const App = () => {
                                          veuillez patienter..."
                                         />
                                     ) : (
-                                        <Exchange
-                                            pools={pools}
-                                        />
+                                        <Exchange pools={pools} />
                                     )
                                 ) : (
-                                    <Loader title="Merci de connecter votre Wallet" />
+                                    <Loader title="Merci de connecter votre Portefeuille" />
                                 )}
                             </div>
                             <div className="blue_gradient" />

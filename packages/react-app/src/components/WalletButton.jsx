@@ -29,7 +29,7 @@ const WalletButton = () => {
             }}
             className={styles.walletButton}
         >
-            {accountAddress || 'Connecter Votre Wallet'}
+            {accountAddress || 'Connecter Votre Portefeuille'}
         </button>
     )
 }
