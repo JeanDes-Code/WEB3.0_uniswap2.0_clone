@@ -23,9 +23,12 @@ const App = () => {
                 </header>
 
                 <div className={styles.exchangeContainer}>
-                    <h1 className={styles.headTitle}>Uniswap 2.0</h1>
+                    <h1 className={styles.headTitle}>
+                        Dev project : CryptoSwap a Uniswap clone
+                    </h1>
                     <p className={styles.subTitle}>
-                        Échangez vos cryptos en quelques instants{' '}
+                        Échangez vos cryptos en quelques instants sur le réseau
+                        de test Goerli{' '}
                     </p>
 
                     <div className={styles.exchangeBoxWrapper}>
