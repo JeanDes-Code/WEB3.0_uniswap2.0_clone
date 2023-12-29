@@ -1,3 +1,5 @@
+## This project was a Uniswap clone, it is now deprecated.
+-------------
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
 ## Project Structure
